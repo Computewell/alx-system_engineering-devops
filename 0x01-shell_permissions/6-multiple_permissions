@@ -1,7 +1,11 @@
 #!/bin/bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 chmod ug+x,o+r hello
 
 =======
 chmod u+x,g+x,o+r, hello
 >>>>>>> 4b378bf84218680aa41a8f980d62784738066564
+=======
+chmod u+x,g+x,o+r hello
+>>>>>>> 3ec0321bc2c229f3ba7a495d96ea1d514a26ed70
