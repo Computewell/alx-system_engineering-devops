@@ -15,7 +15,7 @@
       <tr>
         <td>59637-web-01</td>
         <td><code>ubuntu</code></td>
-        <td><code>52.23.212.37</code></td>
+        <td><code>54.90.56.98</code></td>
         <td>running</td>
         <td>
           <div class="btn-group">
