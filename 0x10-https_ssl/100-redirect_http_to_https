@@ -36,10 +36,10 @@ defaults
 frontend myfrontend
 	bind *:80
 	bind *:443 ssl crt /etc/haproxy/certs/www.zeeweb.tech.pem
-	http-request redirect scheme https code 301 if { hdr(Host) -i www.zeeweb.tech } !{ ssl_fc }
+	http-request redirect scheme https code 301 if { hdr(Host) -i www.computewell.tech } !{ ssl_fc }
 	default_backend myservers
 
 backend myservers
 	balance roundrobin
-	server web-01 100.24.74.197:80 check
-	server web-02 52.91.117.197:80 check	
+	server web-01 18.234.107.66:80 check
+	server web-02 54.208.211.216:80 check	
