@@ -6,8 +6,3 @@
 - SysAdmin
 - Scripting
 - CI/CD
-
-+ Author:
-+ Afolabi John Oluwaseun
-
-```
